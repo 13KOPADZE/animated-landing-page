@@ -1,0 +1,25 @@
+@mixin button {
+  background-color: $primary-color;
+  color: $white;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 28px;
+  width: 170px;
+  max-height: 57px;
+  height: 100vh;
+  border: 0;
+  cursor: pointer;
+  outline: none;
+  transition: 0.5s;
+  &:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+  }
+}
+$primary-color: #2500f9;
+$white: #fff;
+$font-family: poppins;
+$logo-heading: #242f51;
+$headings: #242f51;
+$logo-style: #fcae61;
+$classic-p: #616368;

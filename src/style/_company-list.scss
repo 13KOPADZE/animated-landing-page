@@ -1,0 +1,26 @@
+@import "./variables";
+
+.trusted-section {
+  padding-top: 40px;
+  h4 {
+    font-size: 16px;
+    color: $headings;
+    text-align: center;
+  }
+  .company-list {
+    ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: space-around;
+      align-items: baseline;
+      li {
+        padding: 20px;
+        img {
+          max-width: 155px;
+          width: 100%;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+@import "./variables";
+header {
+  display: flex;
+  font-family: $font-family;
+  justify-content: space-around;
+  padding-top: 35px;
+  h1 {
+    color: $logo-heading;
+    .logo-style {
+      color: $logo-style;
+    }
+  }
+  nav {
+    ul {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      padding: 0;
+      li {
+        padding: 0 20px;
+        color: $headings;
+        button {
+          @include button;
+        }
+      }
+    }
+  }
+}

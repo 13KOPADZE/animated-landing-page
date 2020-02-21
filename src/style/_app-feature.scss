@@ -1,0 +1,70 @@
+@import "./variables";
+.app-feature-section {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  img {
+    max-width: 446px;
+    transform: rotate(-20deg);
+  }
+  .feature-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    width: 100%;
+    h1 {
+      font-size: 36px;
+      color: $headings;
+      padding-bottom: 20px;
+    }
+    p {
+      font-size: 16px;
+      color: $classic-p;
+    }
+    .feature-list {
+      max-width: 480px;
+      width: 100%;
+      .feature-info {
+        display: flex;
+        align-items: center;
+        padding: 25px 0 25px 0;
+        .icon-background {
+          .svg-background {
+            position: relative;
+            width: 88px;
+            height: 88px;
+            border-radius: 50%;
+            .center {
+              position: absolute;
+              left: 50%;
+              top: 50%;
+              transform: translate(-49%, -49%);
+            }
+          }
+          .red-bg {
+            background-color: #ffecef;
+          }
+          .blue-bg {
+            background-color: #f4f4ff;
+          }
+          .green-bg {
+            background-color: #e4ffee;
+          }
+        }
+        .icon-padding {
+          padding-right: 30px;
+        }
+        .red {
+          color: #f55767;
+        }
+        .blue {
+          color: #2563ff;
+        }
+        .green {
+          color: #40975f;
+        }
+      }
+    }
+  }
+}

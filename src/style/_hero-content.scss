@@ -1,0 +1,60 @@
+@import "./variables";
+.hero-section {
+  background-image: url("../images/background.png");
+  .background {
+    background-image: url("../images/city-background.png");
+    background-repeat: repeat-x;
+    background-position-y: bottom;
+    background-position-x: center;
+    .hero-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .hero-content-info {
+        max-width: 530px;
+        padding-right: 110px;
+        .editors-choice {
+          display: flex;
+          align-items: center;
+          background-color: #e2eaed;
+          border-radius: 25px;
+          margin-bottom: 5px;
+          p {
+            color: $headings;
+            font-size: 18px;
+          }
+          .icon-style {
+            height: 35px;
+            width: 50px;
+            margin-left: -2px;
+          }
+        }
+        h1 {
+          font-size: 40px;
+          color: $headings;
+          padding-bottom: 20px;
+        }
+        p {
+          font-size: 18px;
+          color: #616368;
+        }
+        .demo-section {
+          display: flex;
+          align-items: center;
+          padding-top: 20px;
+          button {
+            @include button;
+          }
+          p {
+            padding-left: 20px;
+            cursor: pointer;
+            color: $primary-color;
+          }
+        }
+      }
+      img {
+        max-width: 446px;
+      }
+    }
+  }
+}
