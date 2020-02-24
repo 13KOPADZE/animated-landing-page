@@ -3,7 +3,9 @@
 @import "./hero-content";
 @import "./company-list";
 @import "./app-feature";
-
+@import "./jackpot";
+@import "./design";
+@import "./reason";
 * {
   margin: 0;
   padding: 0;
@@ -13,4 +15,14 @@
 .container {
   max-width: 1200px;
   margin: 0 auto;
+}
+.animated {
+  animation-duration: 3s;
+  animation-delay: 2s;
+}
+.d-flex {
+  display: flex;
+}
+.relative {
+  position: relative;
 }

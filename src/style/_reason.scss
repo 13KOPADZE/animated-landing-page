@@ -1,0 +1,15 @@
+@import "./variables";
+.reasons {
+  .relative {
+    .mobile-form {
+      img {
+        transform: rotateZ(-15deg);
+      }
+    }
+    .mobile-form-2 {
+      position: absolute;
+      top: 20px;
+      left: 150px;
+    }
+  }
+}

@@ -4,6 +4,9 @@
     <HeroComponent />
     <TrustedCompaniesComponent />
     <AppFeatureComponent />
+    <JackpotComponent />
+    <DesignComponent />
+    <ReasonsComponent />
   </div>
 </template>
 
@@ -12,6 +15,9 @@ import HeaderComponent from "./components/HeaderComponent";
 import HeroComponent from "./components/HeroComponent";
 import TrustedCompaniesComponent from "./components/TrustedCompaniesComponent";
 import AppFeatureComponent from "./components/AppFeatureComponent";
+import JackpotComponent from "./components/JackpotComponent";
+import DesignComponent from "./components/DesignComponent";
+import ReasonsComponent from "./components/ReasonsComponent";
 
 export default {
   name: "App",
@@ -19,7 +25,10 @@ export default {
     HeaderComponent,
     HeroComponent,
     TrustedCompaniesComponent,
-    AppFeatureComponent
+    AppFeatureComponent,
+    JackpotComponent,
+    DesignComponent,
+    ReasonsComponent
   }
 };
 </script>
