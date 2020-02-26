@@ -1,0 +1,47 @@
+@import "./variables";
+.reason-card {
+  max-width: 380px;
+  width: 100%;
+  flex-direction: column;
+  padding: 50px 50px 50px 0px;
+  .slot-image-background {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    position: relative;
+    img {
+      position: absolute;
+      top: 15px;
+      left: 18px;
+      width: 56px;
+      height: 54px;
+    }
+  }
+  .pink {
+    background-color: #ffecef;
+  }
+  .light-blue {
+    background-color: #eaf9ff;
+  }
+  .light-yellow {
+    background-color: #fff6d3;
+  }
+  .light-green {
+    background-color: #e4ffee;
+  }
+  .light-purple {
+    background-color: #f4f4ff;
+  }
+  .light-orange {
+    background-color: #fdeee4;
+  }
+  h3 {
+    font-size: 20px;
+    color: $headings;
+    padding: 20px 0;
+  }
+  p {
+    font-size: 16px;
+    color: $classic-p;
+  }
+}

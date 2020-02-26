@@ -1,5 +1,17 @@
 @import "./variables";
 .reasons {
+  .ultimate-feature {
+    max-width: 360px;
+    width: 100%;
+    h1 {
+      color: $headings;
+      font-size: 36px;
+    }
+    p {
+      color: $classic-p;
+      font-size: 16px;
+    }
+  }
   .relative {
     .mobile-form {
       img {
@@ -11,5 +23,24 @@
       top: 20px;
       left: 150px;
     }
+  }
+  .d-flex {
+    button {
+      @include button;
+    }
+  }
+}
+.reason {
+  max-width: 640px;
+  width: 100%;
+  h1 {
+    color: $headings;
+    font-size: 36px;
+    padding: 20px 60px;
+  }
+  p {
+    color: $classic-p;
+    font-size: 16px;
+    padding: 20px;
   }
 }

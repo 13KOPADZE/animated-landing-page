@@ -6,7 +6,8 @@
     <AppFeatureComponent />
     <JackpotComponent />
     <DesignComponent />
-    <ReasonsComponent />
+    <ReasonComponent />
+    <UltimateFeatureComponent />
   </div>
 </template>
 
@@ -17,7 +18,8 @@ import TrustedCompaniesComponent from "./components/TrustedCompaniesComponent";
 import AppFeatureComponent from "./components/AppFeatureComponent";
 import JackpotComponent from "./components/JackpotComponent";
 import DesignComponent from "./components/DesignComponent";
-import ReasonsComponent from "./components/ReasonsComponent";
+import ReasonComponent from "./components/ReasonComponent";
+import UltimateFeatureComponent from "./components/UltimateFeatureComponent";
 
 export default {
   name: "App",
@@ -28,7 +30,8 @@ export default {
     AppFeatureComponent,
     JackpotComponent,
     DesignComponent,
-    ReasonsComponent
+    ReasonComponent,
+    UltimateFeatureComponent
   }
 };
 </script>
