@@ -1,0 +1,39 @@
+@import "./variables";
+
+footer {
+  background: #09142e;
+  height: 530px;
+  display: flex;
+  .footer-content {
+    justify-content: center;
+    h1 {
+      color: $white;
+      .logo-style {
+        color: $logo-style;
+      }
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      li {
+        color: $white;
+        padding: 20px 20px;
+      }
+    }
+    .icon-padding {
+      padding: 20px;
+    }
+  }
+}
+@media (max-width: 960px) {
+  footer {
+    height: 700px;
+    .footer-content {
+      padding: 20px;
+      ul {
+        flex-direction: column;
+      }
+    }
+  }
+}

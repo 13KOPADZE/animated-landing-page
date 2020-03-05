@@ -7,7 +7,7 @@
         entirely and the world's most elevant channels such as Facebook
       </p>
     </div>
-    <div class="d-flex flex-wrap">
+    <div class="d-flex flex-wrap align-center justify-center">
       <ReasonCardComponent class="align-center text-center">
         <div class="slot-image-background pink " slot="image">
           <img src="../images/web-design.png" />

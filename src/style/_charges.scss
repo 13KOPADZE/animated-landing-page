@@ -1,0 +1,112 @@
+@import "./variables";
+$blue: #2500f9;
+$grey: #616368;
+$white: #fff;
+.margin {
+  padding-bottom: 150px;
+  border-bottom: 1px solid #dbdada;
+  .charges-headings {
+    max-width: 640px;
+    width: 100%;
+    text-align: center;
+    h1 {
+      color: $headings;
+      font-size: 36px;
+      padding-bottom: 30px;
+    }
+    p {
+      color: $classic-p;
+      font-size: 16px;
+      padding-bottom: 40px;
+    }
+  }
+  .option {
+    span.switcher {
+      position: relative;
+      border-radius: 25px;
+      margin: 20px 0;
+      input {
+        appearance: none;
+        position: relative;
+        outline: none;
+        width: 300px;
+        height: 50px;
+        border-radius: 25px;
+        outline: none;
+        border: 1px solid #ccc;
+        padding: 26px;
+        &:before,
+        &:after {
+          z-index: 2;
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          color: $white;
+        }
+        &:before {
+          content: "Monthly";
+          left: 45px;
+        }
+        &:after {
+          content: "Annually";
+          right: 45px;
+        }
+      }
+      label {
+        z-index: 1;
+        position: absolute;
+        top: 0px;
+        bottom: 20px;
+        border-radius: 28px;
+        padding: 25px;
+      }
+      &.switcher-1 {
+        input {
+          transition: 0.25s -0.1s;
+          &:checked {
+            background-color: $white;
+            &:before {
+              color: $white;
+              transition: color 0.5s 0.2s;
+            }
+            &:after {
+              color: $grey;
+              transition: color 0.5s;
+            }
+            & + label {
+              left: 3px;
+              right: 145px;
+              top: 2px;
+              background: $blue;
+              transition: left 0.5s, right 0.4s 0.2s;
+            }
+          }
+          &:not(:checked) {
+            background: $white;
+            transition: background 0.5s -0.1s;
+            &:before {
+              color: #616368;
+              transition: color 0.5s;
+            }
+            &:after {
+              color: $white;
+              transition: color 0.5s 0.2s;
+            }
+            & + label {
+              left: 155px;
+              right: 3px;
+              top: 2px;
+              background: #2500f9;
+              transition: left 0.4s 0.2s, right 0.5s, background 0.35s -0.1s;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 960px) {
+  .charges-component {
+    flex-direction: column;
+  }
+}

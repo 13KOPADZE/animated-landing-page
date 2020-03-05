@@ -1,0 +1,57 @@
+@import "./variables";
+
+.accordion-list {
+  max-width: 1020px;
+  width: 100%;
+  .accordion-padding {
+    padding: 10px 0;
+    .accordion {
+      background-color: #ccc;
+      color: #444;
+      cursor: pointer;
+      padding: 22px;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 15px;
+      transition: 0.4s;
+      .inline {
+        display: inherit;
+      }
+      h2 {
+        font-size: 20px;
+        color: $headings;
+      }
+    }
+  }
+}
+.panel {
+  padding: 0 18px;
+  background-color: #ccc;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  display: none;
+  p {
+    padding: 20px 0 40px 0;
+  }
+}
+.show {
+  display: block;
+}
+.accordion {
+  content: "\254B";
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.accordion:after {
+  content: "\2501";
+}
+@media (max-width: 960px) {
+  .accordion-list {
+    padding: 20px;
+  }
+}

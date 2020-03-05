@@ -73,3 +73,19 @@
     }
   }
 }
+@media (max-width: 960px) {
+  .jackpot {
+    .jackpot-list {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .jackpot-content {
+      align-items: center;
+      flex-direction: column;
+      .jackpot-heading {
+        padding: 20px 0;
+      }
+    }
+  }
+}

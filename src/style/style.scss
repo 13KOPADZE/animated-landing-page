@@ -7,6 +7,13 @@
 @import "./design";
 @import "./reason";
 @import "./reason-card";
+@import "./charges";
+@import "./charges-card";
+@import "./rate";
+@import "./faq";
+@import "./accordion";
+@import "./download";
+@import "./footer";
 
 * {
   margin: 0;
@@ -14,12 +21,16 @@
   box-sizing: border-box;
   font-family: $font-family;
 }
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
 }
-.justify-around {
+.justify-between {
   justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
 }
 .animated {
   animation-duration: 3s;
@@ -44,5 +55,21 @@
   text-align: center;
 }
 .padding {
-  padding: 100px 0;
+  padding: 100px 20px;
+}
+p {
+  color: $classic-p;
+  font-size: 16px;
+}
+.navActive {
+  display: block;
+}
+.bar1,
+.bar2,
+.bar3 {
+  width: 25px;
+  height: 3px;
+  background-color: $headings;
+  margin: 5px 0;
+  transition: 0.4s;
 }

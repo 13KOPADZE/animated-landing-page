@@ -1,0 +1,39 @@
+@import "./variables";
+
+.download-background {
+  background-image: url("../images/download-background.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  .download {
+    max-width: 660px;
+    width: 100%;
+    h1 {
+      color: $headings;
+      font-size: 36px;
+    }
+    p {
+      padding: 20px 0;
+    }
+    .download-links {
+      margin: 20px 20px 20px 0px;
+    }
+  }
+}
+@media (max-width: 960px) {
+  .download-background {
+    background-position-x: center;
+    background-position-y: bottom;
+    .download {
+      padding: 20px;
+      width: 100%;
+      background: rgba($color: #fff, $alpha: 0.5);
+
+      .d-flex {
+        flex-direction: column;
+      }
+    }
+    .download-source {
+      flex-direction: column;
+    }
+  }
+}

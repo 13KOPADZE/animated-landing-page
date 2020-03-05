@@ -1,15 +1,18 @@
 @import "./variables";
 .reasons {
-  .ultimate-feature {
-    max-width: 360px;
+  .feature-content {
     width: 100%;
-    h1 {
-      color: $headings;
-      font-size: 36px;
-    }
-    p {
-      color: $classic-p;
-      font-size: 16px;
+    .ultimate-feature {
+      max-width: 360px;
+      width: 100%;
+      h1 {
+        color: $headings;
+        font-size: 36px;
+      }
+      p {
+        color: $classic-p;
+        font-size: 16px;
+      }
     }
   }
   .relative {
@@ -42,5 +45,44 @@
     color: $classic-p;
     font-size: 16px;
     padding: 20px;
+  }
+}
+@media (max-width: 1650px) {
+  .reasons {
+    flex-direction: column;
+    align-items: center;
+    .reasons-list {
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+@media (max-width: 960px) {
+  .reasons {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .feature-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .reasons-list {
+        align-items: center;
+        justify-content: center;
+      }
+    }
+    .relative {
+      .mobile-form {
+        img {
+          transform: rotateZ(0deg);
+          max-width: 320px;
+          width: 100%;
+        }
+      }
+      .mobile-form-2 {
+        display: none;
+      }
+    }
   }
 }

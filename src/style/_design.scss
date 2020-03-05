@@ -24,3 +24,20 @@
     }
   }
 }
+@media (max-width: 960px) {
+  .design-content {
+    flex-direction: column;
+    padding: 110px 0;
+    .design-image {
+      padding: 20px;
+      img {
+        max-width: 320px;
+        padding: 0px 0 40px 0;
+      }
+    }
+
+    .design-text {
+      text-align: center;
+    }
+  }
+}

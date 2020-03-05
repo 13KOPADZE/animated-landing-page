@@ -68,3 +68,22 @@
     }
   }
 }
+@media (max-width: 960px) {
+  .app-feature-section {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img {
+      transform: rotate(0deg);
+      max-width: 320px;
+      width: 100%;
+    }
+    .feature-content {
+      display: flex;
+      flex-direction: column;
+      max-width: 450px;
+      width: 100%;
+    }
+  }
+}
