@@ -1,5 +1,5 @@
 <template>
-  <div class="container jackpot">
+  <div class="container jackpot" data-aos="slide-up" data-aos-duration="10000">
     <div class="d-flex jackpot-content">
       <div class="jackpot-heading">
         <h1>Smart jackpots that you may love this anytime & anywhere</h1>

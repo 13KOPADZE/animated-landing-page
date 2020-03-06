@@ -1,7 +1,13 @@
 <template>
   <div class="app-feature-section container">
-    <img src="../images/feature-app-image.png" />
-    <div class="feature-content">
+    <div data-aos="slide-right" data-aos-duration="10000">
+      <img src="../images/feature-app-image.png" />
+    </div>
+    <div
+      class="feature-content"
+      data-aos="slide-left"
+      data-aos-duration="10000"
+    >
       <div>
         <h1>Awsome apps features</h1>
         <p>

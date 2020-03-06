@@ -2,13 +2,15 @@
   <div class="margin">
     <div class="container d-flex align-center flex-column padding">
       <div class="faq-details">
-        <h1>Frequently asked questions</h1>
-        <p>
+        <h1 data-aos="slide-left" data-aos-duration="10000">
+          Frequently asked questions
+        </h1>
+        <p data-aos="slide-right" data-aos-duration="10000">
           The rise of mobile devices transforms the way we consume information
           entirely and the world's most elevant channels such as Facebook.
         </p>
       </div>
-      <div class="accordion-list">
+      <div class="accordion-list" data-aos="slide-up" data-aos-duration="10000">
         <AccordionComponent>
           <h2 slot="accordion-heading">
             How to contact with riders emergency?

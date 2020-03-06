@@ -1,6 +1,10 @@
 <template>
   <div class="d-flex padding rates">
-    <div class="relative client-list">
+    <div
+      class="relative client-list"
+      data-aos="slide-right"
+      data-aos-duration="10000"
+    >
       <div class="client-img first">
         <img src="../images/customer-1.png" />
       </div>
@@ -15,7 +19,11 @@
       </div>
     </div>
     <div class="container">
-      <div class="client-info d-flex flex-column">
+      <div
+        class="client-info d-flex flex-column"
+        data-aos="slide-left"
+        data-aos-duration="10000"
+      >
         <h1>Meet Client Satisfaction by using product</h1>
         <p>
           The rise of mobile devices transforms the way we consume. elevant

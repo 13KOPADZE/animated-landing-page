@@ -1,8 +1,10 @@
 <template>
   <footer>
     <div class="container d-flex flex-column align-center footer-content">
-      <h1><span class="logo-style">App</span>Lab</h1>
-      <nav>
+      <h1 data-aos="slide-left" data-aos-duration="10000">
+        <span class="logo-style">App</span>Lab
+      </h1>
+      <nav data-aos="slide-right" data-aos-duration="10000">
         <ul>
           <li>Home</li>
           <li>Key Features</li>
@@ -11,7 +13,11 @@
           <li>FAQ</li>
         </ul>
       </nav>
-      <div class="d-flex icon-padding">
+      <div
+        class="d-flex icon-padding"
+        data-aos="slide-left"
+        data-aos-duration="10000"
+      >
         <div class="icon-padding">
           <IconComponent name="facebook" />
         </div>
@@ -27,7 +33,9 @@
           </a>
         </div>
       </div>
-      <p>Copyright© Giorgi Kopadze 2020!. All rights reserved</p>
+      <p data-aos="slide-right" data-aos-duration="10000">
+        Copyright© Giorgi Kopadze 2020!. All rights reserved
+      </p>
     </div>
   </footer>
 </template>

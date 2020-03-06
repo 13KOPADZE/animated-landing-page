@@ -31,7 +31,15 @@ import FAQComponent from "./components/FAQComponent";
 import DownloadComponent from "./components/DownloadComponent";
 import FooterComponent from "./components/FooterComponent";
 import AOS from "aos";
-AOS.init();
+import "aos/dist/aos.css";
+
+AOS.init({
+  // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+  offset: 100, // offset (in px) from the original trigger point
+  delay: 200, // values from 0  to 3000, with step 50ms
+  duration: 800, // values from 0 to 3000, with step 50ms
+  anchorPlacement: "top-bottom" // defines which position of the element regarding to window should trigger the animation
+});
 
 export default {
   name: "App",

@@ -2,19 +2,29 @@
   <div class="margin">
     <div class="container align-center d-flex flex-column">
       <div class="charges-headings">
-        <h1>Get awesome features, without extra charges</h1>
-        <p>
+        <h1 data-aos="slide-left" data-aos-duration="10000">
+          Get awesome features, without extra charges
+        </h1>
+        <p data-aos="slide-right" data-aos-duration="10000">
           The rise of mobile devices transforms the way we consume information
           entirely and the world's most elevant channels such as Facebook
         </p>
       </div>
-      <div class="option d-flex flex-column align-center">
+      <div
+        class="option d-flex flex-column align-center"
+        data-aos="slide-up"
+        data-aos-duration="10000"
+      >
         <span class="switcher switcher-1">
           <input type="checkbox" id="switcher-1" />
           <label for="switcher-1"></label>
         </span>
       </div>
-      <div class="d-flex justify-between padding charges-component">
+      <div
+        class="d-flex justify-between padding charges-component"
+        data-aos="slide-up"
+        data-aos-duration="10000"
+      >
         <ChargesCardComponent>
           <div slot="charges-info">
             <div class="charges-info-heading">

@@ -1,5 +1,9 @@
 <template>
-  <div class="trusted-section container">
+  <div
+    class="trusted-section container"
+    data-aos="slide-up"
+    data-aos-duration="10000"
+  >
     <h4>Trusted by companies like</h4>
     <div class="company-list">
       <ul>

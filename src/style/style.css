@@ -275,7 +275,7 @@ header .nav-bar ul li button:hover {
 }
 
 .trusted-section {
-  padding-top: 40px;
+  padding-top: 130px;
 }
 
 .trusted-section h4 {
@@ -1071,7 +1071,7 @@ header .nav-bar ul li button:hover {
 }
 
 .client-list {
-  background-image: url(/img/map.405932f8.png);
+  background-image: url("../images/map.png");
   background-position: center;
   background-size: cover;
   max-width: 1000px;
@@ -1437,6 +1437,10 @@ footer .footer-content .icon-padding {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: poppins;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 .container {

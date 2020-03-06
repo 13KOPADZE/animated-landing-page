@@ -1,13 +1,19 @@
 <template>
   <div class="d-flex flex-column container align-center">
     <div class="text-center reason">
-      <h1>Why you should choose our app</h1>
-      <p>
+      <h1 data-aos="slide-left" data-aos-duration="10000">
+        Why you should choose our app
+      </h1>
+      <p data-aos="slide-right" data-aos-duration="10000">
         The rise of mobile devices transforms the way we consume information
         entirely and the world's most elevant channels such as Facebook
       </p>
     </div>
-    <div class="d-flex flex-wrap align-center justify-center">
+    <div
+      class="d-flex flex-wrap align-center justify-center"
+      data-aos="slide-up"
+      data-aos-duration="10000"
+    >
       <ReasonCardComponent class="align-center text-center">
         <div class="slot-image-background pink " slot="image">
           <img src="../images/web-design.png" />

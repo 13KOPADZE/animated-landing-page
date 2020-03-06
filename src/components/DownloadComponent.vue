@@ -1,7 +1,7 @@
 <template>
   <div class="padding download-background">
     <div class="container">
-      <div class="download">
+      <div class="download" data-aos="slide-up" data-aos-duration="10000">
         <h1>Download our App now !</h1>
         <p>
           The rise of mobile devices transforms the way we consume information

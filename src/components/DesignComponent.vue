@@ -3,7 +3,7 @@
     <div class="design-image" data-aos="slide-right">
       <img src="../images/design-image.png" />
     </div>
-    <div class="design-text">
+    <div class="design-text" data-aos="slide-left" data-aos-duration="10000">
       <h1>Designed & built by the latest code integration</h1>
       <p>
         The rise of mobile devices transforms the way we consume information

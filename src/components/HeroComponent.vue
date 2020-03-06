@@ -2,7 +2,11 @@
   <div class="hero-section">
     <div class="background">
       <div class="hero-content container">
-        <div class="hero-content-info">
+        <div
+          class="hero-content-info"
+          data-aos="slide-right"
+          data-aos-duration="10000"
+        >
           <div class="editors-choice">
             <div class="icon-style">
               <IconComponent name="checked" />
@@ -19,7 +23,9 @@
             <p>Watch demo video</p>
           </div>
         </div>
-        <img src="../images/app-image.png" />
+        <div data-aos="slide-left" data-aos-duration="10000">
+          <img src="../images/app-image.png" />
+        </div>
       </div>
     </div>
   </div>

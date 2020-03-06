@@ -1,6 +1,10 @@
 <template>
   <div class="container d-flex reasons justify-around padding">
-    <div class="feature-content">
+    <div
+      class="feature-content"
+      data-aos="slide-right"
+      data-aos-duration="10000"
+    >
       <div class="ultimate-feature">
         <h1>Ultimate features that we build</h1>
         <p>
@@ -38,7 +42,11 @@
         <button class="button">See all</button>
       </div>
     </div>
-    <div class="relative mobile-images">
+    <div
+      class="relative mobile-images"
+      data-aos="slide-left"
+      data-aos-duration="10000"
+    >
       <div class="mobile-form">
         <img src="../images/mobile-form.png" />
       </div>
